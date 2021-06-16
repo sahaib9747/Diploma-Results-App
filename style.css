@@ -1,0 +1,450 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*index.php*/
+.index-body
+{
+    font-family: "Roboto", sans-serif;
+}
+.index-main-view{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/s1.jpg);
+    height: 105vh;
+    background-size: cover;
+    background-position:center;
+}
+.index-row{
+    max-width:1200px;
+    margin: auto;
+    height: auto;
+}
+img{
+    display:inline-block;
+    width: 100px;
+    height: auto;
+}
+.index-main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.index-main-nav li{
+    display: inline-block;
+    
+}
+.index-main-nav li a{
+text-decoration: none;
+color: white;
+padding: 5px 20px;
+font-size: 15px;
+}
+.index-main-nav li a:hover{
+    color: lightblue;
+    border: none;
+    border-bottom: 2px solid darkorange;
+
+}
+.index-mid-row{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0;
+    
+}
+.index-mid-row h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+    font-family: monospace;
+}
+.index-button{
+margin-top: 30px;
+margin-left: 440px;
+}
+.index-btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    
+}
+.index-btn-one{
+    background-color: darkorange;
+    cursor: pointer;
+}
+.index-btn-two:hover{
+    transition: 0.5s ease-in;
+    background-color: darkorange;
+}
+/*result.php*/
+.result-mid-row{
+    margin-top: 2px;
+    text-align: center;
+    height: 500px;
+    border:2px solid white;
+    background-color: white;
+
+}
+.result-div-table{
+    display: inline-block;
+    margin-top: 5px;
+
+}
+.result-heading{
+    margin:5px;
+    background-color: green;
+    margin-top: 5px;
+    padding: 5px 5px;
+    border: none;
+}
+.result-heading-text{
+color: white;
+
+}
+.result-line{
+    height: 2px;
+    width: auto;
+    background-color: #C0C0C0;
+    margin:5px;
+
+}
+
+.result-table{
+    margin-top: 10px;
+    padding: 20px 30px;
+    background-color: #F9F8F3;
+}
+
+.result-table-data{;
+padding: 10px;
+}
+.result-button{
+    text-decoration: none;
+    color: black;
+    height: 32px;
+    width: 50%;
+    cursor: pointer;
+    font-size: 15px;
+    border-style: none;
+    border-color: 1px solid black;
+}
+
+.result-button:hover{
+    background-color: #A6F4FF;
+}
+/*viewresult.php*/
+.viewresult-table{
+    display: inline-block;
+    padding: 10px 30px;
+}
+.viewresult-table th{
+    padding-bottom: 10px;
+}
+.viewresult-table td{
+    padding: 5px 100px;
+    width: auto; 
+    background-color: #EEEEEE;
+}
+.viewresult-button{
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+    padding: 5px 30px;
+}
+.viewresult-btn button{
+    margin-right: 10px;
+}
+/* login.php */
+.login-div{
+    margin-left: 25%;
+    background:url(image/login.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 50%;
+    text-align: center;
+}
+.login-heading{
+    padding-top:25px;
+    color: #212529;
+}
+.login-form{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: none;
+}
+.login-table{
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+
+}
+.login-table-text{
+    font-size: 20px;
+    color: #212529;
+}
+.login-table td{
+    width: 400px;
+    height: 40px;
+    padding-top: 10px;
+}
+.login-table-input{
+    width: 400px;
+    height: 40px;
+    border-style:none;
+    border:2px solid #DFDFDF;
+    border-color:#BFDEFF;
+    font-size: 15px;
+    padding-left: 5px;
+    color: #6C757D;
+}
+.login-table-button{
+    width:100px;
+    height: 32px;
+    font-size: 18px;
+    color: white;
+    background-color: #28A745;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.login-table-button:hover{
+    background-color: #218838;
+}
+.login-table-anchor{
+text-decoration: none;
+}
+/*createaccount.php*/
+.create-area-div{
+    height: 500px;
+    width: 800px;
+    background-color: white;
+    margin-left: 16%;
+    text-align: center;
+    padding: 10px;
+    background:url(image/reg.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.create-form{
+    display: inline-block;
+    margin-top: 10px;
+}
+.create-heading{
+    color: #212529;
+}
+.create-table{
+    width: 400px;
+    height: 400px;
+}
+.create-table-text{
+    height: 25px;
+    width: 400px;
+    padding-left: 5px;
+    color: #212529;
+    font-size: 18px;
+}
+.create-table-input{
+    height: 40px;
+    width: 400px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    color: #6C757D;
+    border-style: 1px solid #BFDEFF ;
+    border-color:#BFDEFF;
+    background-color: #E8F0FE;
+}
+.create-button{
+    height: 32px;
+    width: 200px;
+    margin-top: 5px;
+    background-color: #28A745;
+    color: white;
+    font-size: 18px;
+    border-style: none;
+    cursor: pointer;
+}
+.create-button:hover{
+    background-color: #218838;
+}
+.cpanel-area-div{
+	background-color: white;
+	text-align: center;
+	height: 500px;
+	width: 800px;
+	margin:auto;
+	padding:10px;
+}
+.cpanel-heading{
+	padding: 5px;
+	background-color: green;
+	color: white;
+
+}
+.cpanel-add-result{
+	display: inline-block;
+	margin-top: 10px;
+}
+.cpanel-add-result table{
+	width: 600px;
+}
+.cpanel-add-result td{
+	padding-top: 5px;
+}
+.cpanel-input{
+	width: 480px;
+	height: 30px;
+}
+.cpanel-text{
+    padding-left: 5px;
+    color: #212529;
+    font-size: 18px;
+}
+.cpanel-button{
+	width: 120px;
+	height: 32px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 10px;
+	color: blue;
+	margin-right: 10px;
+}
+.cpanel-button-refresh a{
+	text-decoration: none;
+	color: blue;
+}
+.baddresult-table-div{
+	margin-top:100px;
+}
+.contact-area-div{
+    height: 500px;
+    width: 600px;
+    margin:auto;
+    text-align: center;
+    background-image: url(image/contact2.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.contact-heading{
+    padding-top: 10px;
+    color: #212529;
+    background-color: none;
+}
+.contact-table-div{
+    display: inline-block;
+    margin-top: 50px;
+}
+.contact-table-div table tr td{
+    padding-bottom: 10px;
+}
+.contact-text{
+    height: 30px;
+    width: 500px;
+    font-size: 18px;
+    color: #212529;
+    background-color: none;
+}
+.contact-email-td{
+    height: 30px;
+    width: 500px;
+}
+.email-input{
+    width: 500px;
+    height:30px;
+}
+.contact-message-td{
+    width: 500px;
+}
+.input-message{
+    width: 500px;
+    height: 200px;
+    resize: none;
+}
+.blank-line{
+    height: 10px;
+    background-color: #B8D521;
+}
+.container{
+    height: 350px;
+    width: 100%;
+    background-color: #2E3639;
+    position: relative;
+}
+.content{
+    height: 350px;
+    display: flex;
+    width: 100%;
+    text-align: left;
+
+}
+.content h3{
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: dodgerblue;
+    padding-left: 5px;
+}
+.content ul li{
+        list-style: none;
+        text-decoration: none;
+        padding-top: 15px;
+        padding-left: 5px;
+        text-transform: uppercase;
+    }
+.content ul li a{
+        text-decoration: none;
+        color: white;
+
+    }
+.inline{
+    flex: 1;
+}
+.red img{
+    width: 50px;
+    height: 50px;
+    display:inline-block;
+    float: left;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.red h3{
+    margin-top: 10px;
+    padding-left: 70px;
+}
+.red p{
+padding-left: 50px;
+padding-right:10px;
+padding-top: 22;
+line-height: 30px;
+text-align:justify;
+}
+.red a{
+    text-decoration: none; 
+    color: white
+}
+
+.copyright{
+width: 100%;
+height: 50px;
+background-color: #1E2629;
+padding-top: 20px;
+text-transform: uppercase;
+text-align: center;
+position: absolute;
+bottom: 0px;
+color: white;
+}
+.copyright-content-link{
+    text-decoration: none;
+    color: white;
+}
+.copyright-content-two{
+    padding-top: 2px;
+}

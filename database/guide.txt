@@ -1,0 +1,1 @@
+you have to create a database named bteb.sql and related tables
